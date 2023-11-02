@@ -1634,3 +1634,18 @@ header {
 .share_mayag p {
   font-size: 14px;
 }
+.techno {
+  display: flex;
+  width: 137px;
+  width: 24px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.techno img {
+  width: 23px;
+  height: 25px;
+}
