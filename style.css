@@ -1240,7 +1240,9 @@ header {
   position: relative;
   right: 40px;
   padding-left: 40px;
+  padding-top: 30px;
 }
+
 .fire {
   display: flex;
   gap: 20px;
@@ -1778,12 +1780,18 @@ header {
 .video {
   width: 263px;
   height: 300px;
+  position: relative;
 }
 .photo-video {
   width: 263px;
   height: 170px;
   position: relative;
   overflow: hidden;
+}
+.icons {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .photo-video img {
   width: 100%;
@@ -1848,4 +1856,63 @@ header {
   font-size: 12px;
   gap: 5px;
   align-items: center;
+}
+.foto-cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+.gogo-footer {
+  width: 150px;
+  height: 39px;
+}
+.footer-1 {
+  width: 1180px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.tuhai img {
+  width: 15px;
+  height: 20px;
+}
+.tuhai-1 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 550;
+}
+.holboos {
+  display: flex;
+  gap: 10px;
+}
+.tuhai-4 {
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+  color: #101010;
+  font-weight: 550;
+}
+.footer-2 {
+  width: 1180px;
+  display: flex;
+  margin: auto;
+  border-top: 1px solid whitesmoke;
+  padding-top: 30px;
+  justify-content: space-between;
+  height: 100px;
+}
+.since {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+.social {
+  display: flex;
+  gap: 15px;
+  color: #c6c6c6;
 }
